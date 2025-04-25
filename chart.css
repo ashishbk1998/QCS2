@@ -1,0 +1,248 @@
+.table {
+  background-color: black;
+  height: 279px;
+  border: 1px solid #404040 !important;
+  text-align: center;
+}
+
+.panel {
+  background-color: #404040 !important;
+  background: #404040 !important
+}
+
+.btn-transperent {
+  background-color: #868686 !important;
+  border: 1px solid !important;
+  border-radius: 8px !important;
+  color: black !important
+}
+
+
+.btnActive {
+  background-color: #01579b !important;
+  color: white !important
+}
+
+.selectBox {
+  background: black;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.formField {
+  padding-top: 5px;
+}
+
+.alert-msg {
+  /* font-weight: 700; */
+  font-size: 16px;
+}
+
+.headline {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0 0 16px;
+  color: #7d818c !important;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.sub-heading {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0 0 16px;
+  color: #7d818c !important;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.chart-add {
+  color: #303030 !important;
+  font-size: 90px;
+}
+
+
+.seriesbutton {
+  margin: 10px 0;
+  zoom: 1;
+  /* IE7 hasLayout */
+  overflow: hidden;
+  /* clearfix */
+}
+
+.seriesbutton .scanner-tab.series-btn {
+  float: left;
+  margin-right: 10px;
+}
+
+.scanner-tab.series-btn {
+  background-color: #4a4a4a;
+  padding: 5px 10px;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: left;
+  min-width: 200px;
+  position: relative;
+  display: inline-block;
+  zoom: 1;
+}
+
+.tab-indicator {
+  background-color: #e67e22;
+  width: 22px;
+  height: 22px;
+  float: left;
+  margin-right: 10px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 22px;
+}
+
+.tab-text {
+  float: left;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 140px;
+}
+
+.tab-status-indicator {
+  width: 8px;
+  height: 8px;
+  margin: 0 10px;
+  position: relative;
+  float: left;
+}
+
+.tab-status-indicator.active {
+  background-color: #2ecc71;
+}
+
+.tab-status-indicator.inactive {
+  background-color: #e74c3c;
+}
+
+.btn-inactive {
+  filter: alpha(opacity=90);
+  /* IE7 */
+  opacity: 0.9;
+}
+
+.tab-close {
+  color: #aaaaaa;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 5px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  position: relative;
+  z-index: 2;
+  float: right;
+}
+
+.scanner-tab.series-btn:hover .tab-close {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  color: #ffffff;
+}
+
+.slider-container {
+  display: inline-block;
+  width: 200px;
+  margin: 0 15px;
+  vertical-align: middle;
+  position: relative;
+  height: 40px;
+  zoom: 1;
+  /* IE7 hasLayout */
+}
+
+.slider-info {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #aaa;
+  text-align: center;
+}
+
+.panel-heading {
+  padding: 10px 15px;
+  zoom: 1;
+  /* IE7 hasLayout */
+  overflow: hidden;
+  /* IE7 clearfix */
+}
+
+.buttons-container {
+  float: right;
+  /* IE7 compatible alternative to margin-left: auto */
+}
+
+.seriesbutton {
+  float: left;
+  /* IE7 compatible positioning */
+}
+
+/* Override Bootstrap slider styles to avoid duplicates */
+.slider-track {
+  height: 10px !important;
+  margin-top: -5px !important;
+  background: #e9e9e9 !important;
+  border-radius: 5px !important;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1) !important;
+}
+
+.slider-selection {
+  background: #3498db !important;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1) !important;
+}
+
+.slider-handle {
+  background: #2980b9 !important;
+  margin-left: -10px !important;
+  margin-top: -5px !important;
+  height: 20px !important;
+  width: 20px !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+  transition: background 0.15s ease-in-out !important;
+}
+
+.slider-handle:hover {
+  background: #3498db !important;
+}
+
+.slider {
+  width: 200px !important;
+}
+
+.slider-container {
+  padding: 8px 0;
+}
+
+/* Threshold specific styles */
+.threshold-indicator {
+  margin-left: 10px;
+  float: left;
+  animation: pulse 1.5s infinite;
+}
+
+.selected {
+  background-color: #01579b !important;
+  color: white !important
+}
+
+.validationMessage {
+  color: red;
+}
+
+.error {
+  border-color: red;
+}
